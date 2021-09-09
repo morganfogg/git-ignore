@@ -6,7 +6,7 @@ Pulls Gitignore files from https://github.com/github/gitignore and adds them to 
 
 ```bash
 git clone https://github.com/morganfogg/git-ignore
-git config --global alias.ignore "!$PWD/git-ignore/git-ignore.sh"
+git config --global alias.ignore '!'"$PWD/git-ignore/git-ignore.sh"
 ```
 
 ## Example Usage
